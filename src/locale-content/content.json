@@ -6,9 +6,19 @@
       "about":"Thông tin về tôi",
       "skills":"Những kỹ năng của tôi",
       "im":"Xin chào,tôi tên là Nguyễn Duy Lộc.",
-      "ido":"Tôi là một lập trình viên web!",
+      "ido":"Tôi là một lập trình viên fullstack web!",
       "desc":"Tôi có 1 năm kinh nghiệm làm việc với các hệ thống erp, cms , crm!",
-      "quotes":"Tìm tòi và học hỏi những công nghệ mới là sở thích của tôi."
+      "quotes":"Tìm tòi và học hỏi những công nghệ mới là sở thích của tôi.",
+      "lang":"NGÔN NGỮ LẬP TRÌNH",
+      "FR&PLA":"NỀN TẢNG",
+      "data":"CƠ SỞ DỮ LIỆU",
+      "control":"QUẢN LÝ",
+      "ide":"PHẦN MỀM HỖ TRỢ",
+      "known":"HIỂU BIẾT",
+      "known1":"Có hiểu biết tốt về thiết kế phần mềmm",
+      "known2":"Có khả năng thiết kế cơ sở dữ liệu và sử dụng RestfulAPI",
+      "known3":"Có kinh nghiệm về sử dụng thư viện ant design",
+      "known4":"Khả năng làm việc nhóm tốt"
     }
   },
   "en": {
@@ -18,9 +28,19 @@
       "about":"About me",
       "skills":"My skills",
       "im":"Hi,i`m Loc Nguyen.",
-      "ido":"I`m a web developer!",
+      "ido":"I`m a full stack web developer!",
       "desc":"I have 1 year experience working with erp, cms, crm systems! ",
-      "quotes":"Learning new languages and technologies is what I am passionate about."
+      "quotes":"Learning new languages and technologies is what I am passionate about.",
+      "lang":"PROGRAMMING LANGUAGES",
+      "FR&PLA":"FRAMEWORKS & PLATFORMS",
+      "data":"DATABASE",
+      "control":"VERSION CONTROL",
+      "ide":"IDE",
+      "known":"KNOWLEDGE",
+      "known1":"Good understanding software design",
+      "known2":"Good database design, RestfulAPI",
+      "known3":"Good experience in React UI library Ant Design.",
+      "known4":"Good teamwork skills ..."
     }
   }
 }

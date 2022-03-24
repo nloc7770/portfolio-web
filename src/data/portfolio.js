@@ -48,10 +48,18 @@ export const Portfolio = [
         tech: "#reactjs, #nodejs, #sqlserver, #nextjs",
         url: "http://ihousing.vn/"
     },{
+        id: 8,
+        project_name: "Vigory",
+        desc_vn: "Nhận yêu cầu từ BA ,tạo và sửa chữa các form khai báo hệ thống và website.",
+        desc_en: "Get requirement from BA, create and fix modules of the system and website.",
+        teamsize: 4,
+        tech: "#reactjs, #nodejs, #sqlserver, #nextjs",
+        url: "Ongoing"
+    },{
         id: 7,
         project_name: "Mini projects",
         desc_vn: "Vào thời gian rãnh tôi đã làm một vài thứ linh tinh",
         desc_en: "In my free time, I work on some pet projects.",
-        url: "http://ihousing.vn/"
+        url: "https://github.com/nloc7770"
     }
 ]

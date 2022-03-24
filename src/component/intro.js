@@ -21,9 +21,9 @@ function intro() {
                     <h3>
                         {getLocaleContent(locale, `common.ido`)}
                     </h3>
-                    <h3>
+                    {/* <h3>
                         {getLocaleContent(locale, `common.desc`)}
-                    </h3>
+                    </h3> */}
                     <h3>
                         {getLocaleContent(locale, `common.quotes`)}
                     </h3>

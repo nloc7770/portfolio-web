@@ -19,6 +19,11 @@ function socialIcons() {
                     <Github width={25} height={25} fill="currentColor" />
                 </a>
             </Link>
+            <Link href={'https://github.com/nloc7770'}>
+                <a target={'_blank'}>
+                    <Github width={25} height={25} fill="currentColor" />
+                </a>
+            </Link>
             <div className='line'></div>
 
         </div>
