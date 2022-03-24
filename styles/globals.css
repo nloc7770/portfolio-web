@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-weight: 500;
 }
 
 a {
@@ -13,4 +13,155 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.logo h1 {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  left: 2rem;
+  top: 2rem;
+  z-index: 3;
+}
+
+.main-css {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 2rem;
+  z-index: 3;
+}
+
+.line {
+  width: 2px;
+  height: 8rem;
+  background-color: #000;
+}
+
+.connect h3 {
+  position: absolute;
+  top: 2rem;
+  right: calc(1rem + 2vw);
+  text-decoration: none;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.ant-switch-checked {
+  background-color: #000 !important;
+}
+
+.locale_button {
+  position: fixed;
+  top: 2rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 0.3rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.portfolio {
+  position: absolute;
+  top: 50%;
+  left: calc(1rem + 2vw);
+  transform: translate(-50%, -50%) rotate(-90deg);
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.about {
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.skills {
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.info {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.intro-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 55vw;
+  height: 55vh;
+  display: flex;
+  border: 1px solid;
+  padding: 2rem;
+}
+
+.hi {
+  font-size: 40px;
+}
+
+.text {
+  position: relative;
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.component-style {
+  width: 70vw;
+  height: 70vh;
+  padding: 15px;
+  border-radius: 10px;
+  border: 5px ;
+  border-color: #000;
+  border-style: double;
+}
+.swiper-card {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  color: aliceblue;
+  overflow: hidden;
+  position: relative;
+}
+.prortfolio-items{
+  padding: 10px;
+}
+.swiper-pagination-bullet{
+  background-color: white !important;
 }
