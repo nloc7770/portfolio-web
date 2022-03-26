@@ -173,17 +173,19 @@ a {
 .text-center {
   text-align: center;
 }
-.menu{
-    position: absolute;
-    top: 4rem;
-    right: calc(1rem + 2vw);
-    text-decoration: none;
-    z-index: 1;
-    cursor: pointer;
-    vertical-align: text-bottom;
-    display: none;
+
+.menu {
+  position: absolute;
+  top: 4rem;
+  right: calc(1rem + 2vw);
+  text-decoration: none;
+  z-index: 1;
+  cursor: pointer;
+  vertical-align: text-bottom;
+  display: none;
 }
-.modal{
+
+.modal {
   position: fixed;
   z-index: 110;
   top: 0;
@@ -191,14 +193,14 @@ a {
   right: 0;
   bottom: 0;
   transition: all 150ms;
-  background: rgba(0,0,0,0.75);
+  background: rgba(0, 0, 0, 0.75);
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: center
 }
 
-.modal_container{
+.modal_container {
   max-width: 650px;
   padding: 25px;
   height: 100%;
@@ -206,16 +208,19 @@ a {
   background: #fff;
   width: 100%;
 }
+
 .body_modal ul {
   list-style-type: none;
   padding: 0px !important;
 
 }
-.body_modal ul li h4{
-  margin-block-start:1em !important;
-  margin-block-end:1em !important;
+
+.body_modal ul li h4 {
+  margin-block-start: 1em !important;
+  margin-block-end: 1em !important;
 }
-.title_modal{
+
+.title_modal {
   font-size: 18px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px;
@@ -225,10 +230,12 @@ a {
   flex-direction: row;
   justify-content: space-between;
 }
-.close_modal{
+
+.close_modal {
   font-size: 18px;
   cursor: pointer;
 }
+
 /* Max width 480px */
 @media screen and (max-width: 414px) {
   .row {
@@ -290,19 +297,33 @@ a {
   ul {
     padding-inline-start: 20px;
   }
+
   .portfolio {
     display: none;
   }
-  .about{
+
+  .about {
     display: none;
   }
-  .skills{
+
+  .skills {
     display: none;
   }
-  .connect{
+
+  .connect {
     display: none;
   }
-  .menu{
+
+  .menu {
     display: block;
-}
+  }
+
+  .intro-container {
+    overflow-y: scroll;
+  }
+
+  html,
+  body {
+    font-family: 'Pacifico', Marker Felt;
+  }
 }
