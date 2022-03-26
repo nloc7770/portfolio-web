@@ -29,7 +29,7 @@ function AboutSlide({ data }) {
         let descArr = desc.split(". ")
         return descArr && descArr.length > 0 && descArr.map((item, index) => (
             <li key={`desc${item}`}>
-                <h2 >{item} </h2>
+                <h4 className='h2'>{item} </h4>
             </li>
         ))
     }
@@ -46,7 +46,7 @@ function AboutSlide({ data }) {
                         key={e.id}
                     >
                         <div className="swiper-slide prortfolio-items ">
-                            <h1 className='text-center'>{locale == "vn" ? e.name_vn : e.name_en} </h1>
+                            <h3 className='text-center h1' >{locale == "vn" ? e.name_vn : e.name_en} </h3>
                             <ul>
                                 {locale == "vn" ? renderDesc(e.desc_vn) : renderDesc(e.desc_en)}
                             </ul>

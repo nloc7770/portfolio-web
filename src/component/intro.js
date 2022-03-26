@@ -11,7 +11,7 @@ function intro() {
             transition={{ type: 'spring', duration: 2 }}
         >
             <div className="text row">
-                <div > 
+                <div className='content-intro'> 
                  <motion.div initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1, delay: 1 }} >
@@ -31,7 +31,7 @@ function intro() {
 
                 </div>
 
-                <div >
+                <div className='img-url'>
                     <motion.div initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 1, delay: 1 }} >

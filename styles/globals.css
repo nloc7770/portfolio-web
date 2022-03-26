@@ -61,6 +61,7 @@ a {
   text-decoration: none;
   z-index: 1;
   cursor: pointer;
+  vertical-align: text-bottom;
 }
 
 .ant-switch-checked {
@@ -147,10 +148,11 @@ a {
   height: 70vh;
   padding: 15px;
   border-radius: 10px;
-  border: 5px ;
+  border: 5px;
   border-color: #000;
   border-style: double;
 }
+
 .swiper-card {
   background-color: black;
   width: 100%;
@@ -159,12 +161,56 @@ a {
   overflow: hidden;
   position: relative;
 }
-.prortfolio-items{
+
+.prortfolio-items {
   padding: 10px;
 }
-.swiper-pagination-bullet{
+
+.swiper-pagination-bullet {
   background-color: white !important;
 }
-.text-center{
+
+.text-center {
   text-align: center;
+}
+
+/* Max width 480px */
+@media screen and (max-width: 376px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .locale_button {
+    top: 1rem;
+  }
+  .img-url{
+    /* display: none; */
+    order: 1;
+  
+  }
+  .img-url img{
+    width: 100px;
+    height: 100px;
+  }
+  .content-intro{
+    order: 2;
+  }
+  .connect h3 {
+    top: 3rem;
+  }
+  .intro-container{
+    padding: 1rem;
+    height: 60vh !important;
+    width: 50vw !important;
+  }
+  .social-list {
+    left: 1rem;
+  }
+  .swiper-card {
+    overflow-y: scroll;
+  }
+  .prortfolio-items{
+    overflow-y:scroll ;
+    padding: 5px;
+  }
 }
