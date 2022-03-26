@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useRouter } from "next/router";
 import SkillCard from "../../component/SkillCard"
-function index() {
+function SkillPage() {
   const { locale } = useRouter()
   return (
     <motion.div
@@ -16,4 +16,4 @@ function index() {
   )
 }
 
-export default index
+export default SkillPage

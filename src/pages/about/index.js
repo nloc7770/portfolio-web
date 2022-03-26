@@ -4,7 +4,7 @@ import { getLocaleContent } from "../../helper/get_locale_content";
 import { useRouter } from "next/router";
 import { About } from "../../data/about"
 import AboutSlide from "../../component/AboutSlide"
-function index() {
+function AboutPage() {
   const { locale } = useRouter()
   return (
     <motion.div
@@ -18,4 +18,4 @@ function index() {
   )
 }
 
-export default index
+export default AboutPage

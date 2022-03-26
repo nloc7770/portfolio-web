@@ -4,7 +4,7 @@ import { getLocaleContent } from "../../helper/get_locale_content";
 import { useRouter } from "next/router";
 import { Portfolio } from "../../data/portfolio"
 import PortfolioSilde from "../../component/PortfolioSilde"
-function index() {
+function PortfolioPage() {
   const { locale } = useRouter()
   return (
     <motion.div
@@ -12,10 +12,11 @@ function index() {
       animate={{ x: "0" }} >
       <div className='component-style'>
         <PortfolioSilde data={Portfolio} />
+        
       </div>
     </motion.div>
 
   )
 }
 
-export default index
+export default PortfolioPage

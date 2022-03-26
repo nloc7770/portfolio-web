@@ -4,7 +4,7 @@ export const About = [
         name_vn: "GIỚI THIỆU",
         name_en: "SUMMARY",
         desc_vn: "Tôi tên là Nguyễn Duy Lộc, là một lập trình viên fullstack với 1 năm kinh nghiệm trong việc làm việc với các hệ thống erp, cms và crm. Tôi có kiến thức tốt về thiết kế cơ sở dữ liệu và phần mềm. Tôi được xem là một người khá thân thiện vì tôi thích làm việc theo nhóm ",
-        desc_en: "I'm Nguyen Duy Loc, a stackdeveloper with 1 years of experience working with erp, cms, crm systems. I have good knowledge of Database Design and Software Design. I am considered a team-player because I like to work within groups",
+        desc_en: "I'm Nguyen Duy Loc, a fullstack developer with 1 years of experience working with erp, cms, crm systems. I have good knowledge of Database Design and Software Design. I am considered a team-player because I like to work within groups",
     }, {
         
         id: "about2",
