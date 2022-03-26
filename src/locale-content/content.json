@@ -2,6 +2,7 @@
   "vn": {
     "common": {
       "connect":"Liên lạc với tôi qua email",
+      "home":"Trang chủ",
       "portfolio":"Dự án của tôi",
       "about":"Thông tin về tôi",
       "skills":"Những kỹ năng của tôi",
@@ -24,6 +25,7 @@
   "en": {
     "common": {
       "connect":"Connect with me via email",
+      "home":"Home",
       "portfolio":"My portfolio",
       "about":"About me",
       "skills":"My skills",

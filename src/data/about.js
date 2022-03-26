@@ -10,8 +10,8 @@ export const About = [
         id: "about2",
         name_vn: "THÔNG TIN LIÊN HỆ",
         name_en: "CONTACT INFO",
-        desc_vn: "Địa chỉ : Gò vấp, Thành phố Hồ Chí Minh. Email : nloc7770@gmail.com . Số điện thoại : 0347779264. Facebook : https://www.facebook.com/nloc7780/",
-        desc_en: "Address: Go Vap, Ho Chi Minh City. Email: nloc7770@gmail.com. Phone number: 0347779264. Facebook: https://www.facebook.com/nloc7780/",
+        desc_vn: "Địa chỉ : Gò vấp, Thành phố Hồ Chí Minh. Email : nloc7770@gmail.com . Số điện thoại : 0347779264. Facebook : facebook.com/nloc7780/",
+        desc_en: "Address: Go Vap, Ho Chi Minh City. Email: nloc7770@gmail.com. Phone number: 0347779264. Facebook: facebook.com/nloc7780/",
     }, {
         id: "about3",
         name_vn: "HỌC VẤN",
