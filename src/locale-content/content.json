@@ -19,7 +19,8 @@
       "known1":"Có hiểu biết tốt về thiết kế phần mềmm",
       "known2":"Có khả năng thiết kế cơ sở dữ liệu và sử dụng RestfulAPI",
       "known3":"Có kinh nghiệm về sử dụng thư viện ant design",
-      "known4":"Khả năng làm việc nhóm tốt"
+      "known4":"Khả năng làm việc nhóm tốt",
+      "cv":"Hồ sơ của tôi"
     }
   },
   "en": {
@@ -42,7 +43,8 @@
       "known1":"Good understanding software design",
       "known2":"Good database design, RestfulAPI",
       "known3":"Good experience in React UI library Ant Design.",
-      "known4":"Good teamwork skills ..."
+      "known4":"Good teamwork skills ...",
+      "cv":"MY CV"
     }
   }
 }
