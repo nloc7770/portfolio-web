@@ -33,9 +33,7 @@ function SkillCard() {
                         <li>
                             <h4 className='h4'>Redis / ExpressJS</h4>
                         </li>
-                        <li>
-                            <h4 className='h4'>Jwt</h4>
-                        </li>
+                        
                     </ul>
                 </div>
                 <div>
