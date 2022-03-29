@@ -16,7 +16,6 @@ function DefaultLayout({ children, activeMenu = null }) {
                 {isShowMenuMobile==true? <MenuMobile />:null}
                
                 <SocialIcons />
-                <Connect />
                 <Link name='portfolio' />
                 <div className='info'>
                     <Link name='about' />
