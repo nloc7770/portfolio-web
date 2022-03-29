@@ -6,13 +6,13 @@ function connect() {
     const { locale } = useRouter()
     return (
         <div className='connect'>
-            <Link href={{ pathname: "mailto:nloc7770@gmail.com" }}>
+            <a href="mailto:nloc7770@gmail.com" >
                 <h3>
                     <a target="_blank" >
                         {getLocaleContent(locale, "common.connect")}
                     </a>
                 </h3>
-            </Link>
+            </a>
         </div>
     )
 }
