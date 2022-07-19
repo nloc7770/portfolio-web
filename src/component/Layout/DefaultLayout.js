@@ -1,7 +1,6 @@
 import Logo from '../logo'
 import SocialIcons from '../social_icons'
 import Locale from '../locale_button'
-import Connect from '../connect'
 import MenuMobile from '../MenuMobile'
 import Link from '../link'
 import { useApp } from '../../contexts/AppProvider';
@@ -22,7 +21,6 @@ function DefaultLayout({ children, activeMenu = null }) {
                     <Link name='skills' />
                 </div>
                 {children}
-
                 <div className='menu'>
                     <a onClick={() => {
                         
